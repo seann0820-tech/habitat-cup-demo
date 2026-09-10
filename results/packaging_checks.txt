@@ -1,0 +1,143 @@
+test_all_unreached_and_single_reached_statistics_are_explicit (test_aggregate.AggregateTests.test_all_unreached_and_single_reached_statistics_are_explicit) ... ok
+test_complete_seed_coverage_and_continual_protocol_guard (test_aggregate.AggregateTests.test_complete_seed_coverage_and_continual_protocol_guard) ... 对比数据： /tmp/tmprrwc38pn/0/comparison/comparison.json 状态： basic_complete_continual_pending
+对比数据： /tmp/tmprrwc38pn/1/comparison/comparison.json 状态： basic_complete_continual_pending
+对比数据： /tmp/tmprrwc38pn/0/comparison/comparison.json 状态： complete
+对比数据： /tmp/tmprrwc38pn/1/comparison/comparison.json 状态： complete
+多 seed 汇总： /tmp/tmprrwc38pn/aggregate/aggregate.json 训练 seed 数： 2
+ok
+test_duplicate_seed_and_changed_protocol_rejected (test_aggregate.AggregateTests.test_duplicate_seed_and_changed_protocol_rejected) ... 对比数据： /tmp/tmpsee_d74v/a/comparison/comparison.json 状态： basic_complete_continual_pending
+对比数据： /tmp/tmpsee_d74v/b/comparison/comparison.json 状态： basic_complete_continual_pending
+ok
+test_seed_means_pairing_and_missing_thresholds (test_aggregate.AggregateTests.test_seed_means_pairing_and_missing_thresholds) ... 对比数据： /tmp/tmptayd7d1n/0/comparison/comparison.json 状态： basic_complete_continual_pending
+对比数据： /tmp/tmptayd7d1n/1/comparison/comparison.json 状态： basic_complete_continual_pending
+多 seed 汇总： /tmp/tmptayd7d1n/aggregate/aggregate.json 训练 seed 数： 2
+ok
+test_continual_phase_start_is_not_frozen_initial_and_checkpoint_is_guarded (test_comparison.ComparisonTests.test_continual_phase_start_is_not_frozen_initial_and_checkpoint_is_guarded) ... 对比数据： /tmp/tmpjgyqntte/comparison/comparison.json 状态： complete
+ok
+test_local_phase_diagnostics_preserve_missing_values_and_observation_names (test_comparison.ComparisonTests.test_local_phase_diagnostics_preserve_missing_values_and_observation_names) ... 对比数据： /tmp/tmpbb2zs3x7/comparison/comparison.json 状态： basic_complete_continual_pending
+ok
+test_paired_manifest_geometry_guard (test_comparison.ComparisonTests.test_paired_manifest_geometry_guard) ... 对比数据： /tmp/tmpk_mw_s10/good/comparison.json 状态： basic_complete_continual_pending
+ok
+test_report_requires_matching_episodes_and_keeps_cl_pending (test_comparison.ComparisonTests.test_report_requires_matching_episodes_and_keeps_cl_pending) ... 对比数据： /tmp/tmp824hdrt9/report/comparison.json 状态： basic_complete_continual_pending
+ok
+test_total_cost_includes_meta_update_and_inference (test_comparison.ComparisonTests.test_total_cost_includes_meta_update_and_inference) ... ok
+test_candidate_extension_keeps_box_size_out_of_search (test_generation.GenerationTests.test_candidate_extension_keeps_box_size_out_of_search) ... ok
+test_equal_seeds_with_different_geometry_are_rejected (test_generation.GenerationTests.test_equal_seeds_with_different_geometry_are_rejected) ... ok
+test_exhaustion_is_bounded_cleaned_and_not_a_scored_failure (test_generation.GenerationTests.test_exhaustion_is_bounded_cleaned_and_not_a_scored_failure) ... ok
+test_failed_legacy_candidates_do_not_abort_search (test_generation.GenerationTests.test_failed_legacy_candidates_do_not_abort_search) ... ok
+test_geometry_only_start_fallback_is_deterministic (test_generation.GenerationTests.test_geometry_only_start_fallback_is_deterministic) ... ok
+test_preflight_covers_protocol_without_actions_and_caches_success (test_generation.GenerationTests.test_preflight_covers_protocol_without_actions_and_caches_success) ... GEOMETRY 1/24 pick_cup A_clear a seed=750000
+GEOMETRY 2/24 pick_cup A_clear b seed=750001
+GEOMETRY 3/24 open_drawer A_clear a seed=750000
+GEOMETRY 4/24 open_drawer A_clear b seed=750001
+GEOMETRY 5/24 pick_cup A_clear a seed=650000
+GEOMETRY 6/24 open_drawer A_clear a seed=650000
+GEOMETRY 7/24 pick_cup A_clear a seed=550001
+GEOMETRY 8/24 open_drawer A_clear a seed=550002
+GEOMETRY 9/24 pick_cup B_passage_blocked a seed=750000
+GEOMETRY 10/24 pick_cup B_passage_blocked b seed=750001
+GEOMETRY 11/24 open_drawer B_passage_blocked a seed=750000
+GEOMETRY 12/24 open_drawer B_passage_blocked b seed=750001
+GEOMETRY 13/24 pick_cup B_passage_blocked a seed=650000
+GEOMETRY 14/24 open_drawer B_passage_blocked a seed=650000
+GEOMETRY 15/24 pick_cup B_passage_blocked a seed=560001
+GEOMETRY 16/24 open_drawer B_passage_blocked a seed=560002
+GEOMETRY 17/24 pick_cup C_workspace_clutter a seed=750000
+GEOMETRY 18/24 pick_cup C_workspace_clutter b seed=750001
+GEOMETRY 19/24 open_drawer C_workspace_clutter a seed=750000
+GEOMETRY 20/24 open_drawer C_workspace_clutter b seed=750001
+GEOMETRY 21/24 pick_cup C_workspace_clutter a seed=650000
+GEOMETRY 22/24 open_drawer C_workspace_clutter a seed=650000
+GEOMETRY 23/24 pick_cup C_workspace_clutter a seed=570001
+GEOMETRY 24/24 open_drawer C_workspace_clutter a seed=570002
+持续学习几何预检通过: 24 个独立 episode；没有执行 agent。
+复用几何预检（不是 agent 成绩）: /tmp/tmp6aw6_863/generation_check.json
+ok
+test_bounded_memory_preserves_phase_label_after_later_task_failure (test_meta.MetaTests.test_bounded_memory_preserves_phase_label_after_later_task_failure) ... ok
+test_cold_eval_is_exact_fixed_baseline_without_hidden_probe (test_meta.MetaTests.test_cold_eval_is_exact_fixed_baseline_without_hidden_probe) ... ok
+test_drawer_detach_does_not_reward_failure_or_label_later_reach_as_success (test_meta.MetaTests.test_drawer_detach_does_not_reward_failure_or_label_later_reach_as_success) ... ok
+test_eval_freezes_all_persistent_learning_state_but_updates_local_history (test_meta.MetaTests.test_eval_freezes_all_persistent_learning_state_but_updates_local_history) ... ok
+test_incremental_search_and_paid_baseline_fallback_exact_accounting (test_meta.MetaTests.test_incremental_search_and_paid_baseline_fallback_exact_accounting) ... ok
+test_manipulation_action_masks_apply_to_every_search_option (test_meta.MetaTests.test_manipulation_action_masks_apply_to_every_search_option) ... ok
+test_monitoring_is_per_episode_scored_against_phase_outcome (test_meta.MetaTests.test_monitoring_is_per_episode_scored_against_phase_outcome) ... ok
+test_optimizer_learns_selected_terminal_values_and_phase_diagnostics (test_meta.MetaTests.test_optimizer_learns_selected_terminal_values_and_phase_diagnostics) ... ok
+test_recovery_resets_are_bounded_by_cooldown_and_reset_between_episodes (test_meta.MetaTests.test_recovery_resets_are_bounded_by_cooldown_and_reset_between_episodes) ... ok
+test_shadow_observer_counts_compute_without_changing_action_or_learning (test_meta.MetaTests.test_shadow_observer_counts_compute_without_changing_action_or_learning) ... ok
+test_snapshot_restores_rng_targets_buffers_and_calibration (test_meta.MetaTests.test_snapshot_restores_rng_targets_buffers_and_calibration) ... ok
+test_stall_detector_allows_detours_turns_and_holds_but_detects_rejected_motion (test_meta.MetaTests.test_stall_detector_allows_detours_turns_and_holds_but_detects_rejected_motion) ... ok
+test_successful_navigation_not_labeled_failure_when_reach_fails (test_meta.MetaTests.test_successful_navigation_not_labeled_failure_when_reach_fails) ... ok
+test_actual_training_resume_calibration_continual_and_paired_report (test_meta_protocol.MetaProtocolTests.test_actual_training_resume_calibration_continual_and_paired_report) ... ok
+test_calibration_requires_episodes_and_classes_then_reduces_known_bias (test_monitor_v2.MonitorV2Tests.test_calibration_requires_episodes_and_classes_then_reduces_known_bias) ... ok
+test_episode_holdout_has_no_shared_training_or_q_leakage (test_monitor_v2.MonitorV2Tests.test_episode_holdout_has_no_shared_training_or_q_leakage) ... ok
+test_full_trace_successor_before_subsampling_and_action_mask (test_monitor_v2.MonitorV2Tests.test_full_trace_successor_before_subsampling_and_action_mask) ... ok
+test_invalid_labels_and_illegal_recorded_actions_fail_explicitly (test_monitor_v2.MonitorV2Tests.test_invalid_labels_and_illegal_recorded_actions_fail_explicitly) ... ok
+test_phase_metrics_never_substitute_final_task_success (test_monitor_v2.MonitorV2Tests.test_phase_metrics_never_substitute_final_task_success) ... ok
+test_restore_and_frozen_evaluation_are_bitwise_reproducible (test_monitor_v2.MonitorV2Tests.test_restore_and_frozen_evaluation_are_bitwise_reproducible) ... ok
+test_selected_action_optimizer_learns_diagnostics_and_q (test_monitor_v2.MonitorV2Tests.test_selected_action_optimizer_learns_diagnostics_and_q) ... ok
+test_adaptation_and_cost (test_protocol.ProtocolTests.test_adaptation_and_cost) ... ok
+test_clearance_and_detour (test_protocol.ProtocolTests.test_clearance_and_detour) ... ok
+test_collision_is_swept_not_endpoint_only (test_protocol.ProtocolTests.test_collision_is_swept_not_endpoint_only) ... ok
+test_conditional_task_rates_and_macro (test_protocol.ProtocolTests.test_conditional_task_rates_and_macro) ... ok
+test_drawer_requires_pull_and_hold_not_just_reaching_handle (test_protocol.ProtocolTests.test_drawer_requires_pull_and_hold_not_just_reaching_handle) ... ok
+test_n85_does_not_hide_one_failed_task (test_protocol.ProtocolTests.test_n85_does_not_hide_one_failed_task) ... ok
+test_real_episode_and_evaluate_do_not_learn_during_tests (test_protocol.ProtocolTests.test_real_episode_and_evaluate_do_not_learn_during_tests) ... test/pick_cup: 2 episodes, SR=1.000
+test/open_drawer: 2 episodes, SR=0.000
+frozen_0/pick_cup: 1 episodes, SR=1.000
+frozen_0/open_drawer: 1 episodes, SR=0.000
+frozen_1/pick_cup: 1 episodes, SR=1.000
+frozen_1/open_drawer: 1 episodes, SR=0.000
+frozen_2/pick_cup: 1 episodes, SR=1.000
+frozen_2/open_drawer: 1 episodes, SR=0.000
+phase0_adapt/pick_cup: 1 episodes, SR=1.000
+phase0_adapt/open_drawer: 1 episodes, SR=0.000
+phase0_adapt/pick_cup: 1 episodes, SR=1.000
+phase0_adapt/open_drawer: 1 episodes, SR=0.000
+after0_domain0/pick_cup: 1 episodes, SR=1.000
+after0_domain0/open_drawer: 1 episodes, SR=0.000
+after0_domain1/pick_cup: 1 episodes, SR=1.000
+after0_domain1/open_drawer: 1 episodes, SR=0.000
+after0_domain2/pick_cup: 1 episodes, SR=1.000
+after0_domain2/open_drawer: 1 episodes, SR=0.000
+phase1_adapt/pick_cup: 1 episodes, SR=1.000
+phase1_adapt/open_drawer: 1 episodes, SR=0.000
+phase1_adapt/pick_cup: 1 episodes, SR=1.000
+phase1_adapt/open_drawer: 1 episodes, SR=0.000
+after1_domain0/pick_cup: 1 episodes, SR=1.000
+after1_domain0/open_drawer: 1 episodes, SR=0.000
+after1_domain1/pick_cup: 1 episodes, SR=1.000
+after1_domain1/open_drawer: 1 episodes, SR=0.000
+after1_domain2/pick_cup: 1 episodes, SR=1.000
+after1_domain2/open_drawer: 1 episodes, SR=0.000
+phase2_adapt/pick_cup: 1 episodes, SR=1.000
+phase2_adapt/open_drawer: 1 episodes, SR=0.000
+phase2_adapt/pick_cup: 1 episodes, SR=1.000
+phase2_adapt/open_drawer: 1 episodes, SR=0.000
+after2_domain0/pick_cup: 1 episodes, SR=1.000
+after2_domain0/open_drawer: 1 episodes, SR=0.000
+after2_domain1/pick_cup: 1 episodes, SR=1.000
+after2_domain1/open_drawer: 1 episodes, SR=0.000
+after2_domain2/pick_cup: 1 episodes, SR=1.000
+after2_domain2/open_drawer: 1 episodes, SR=0.000
+必测 A/B/C 完成： /tmp/tmp83o5mi5g/continual/continual_summary.json
+ok
+test_task_scene_balance (test_protocol.ProtocolTests.test_task_scene_balance) ... ok
+test_fixed_actions_frozen_state_same_labels_and_separate_costs (test_shadow.ShadowTests.test_fixed_actions_frozen_state_same_labels_and_separate_costs) ... SHADOW A_clear/pick_cup: 1 frozen episodes
+SHADOW A_clear/open_drawer: 1 frozen episodes
+SHADOW B_passage_blocked/pick_cup: 1 frozen episodes
+SHADOW B_passage_blocked/open_drawer: 1 frozen episodes
+SHADOW C_workspace_clutter/pick_cup: 1 frozen episodes
+SHADOW C_workspace_clutter/open_drawer: 1 frozen episodes
+Reuse completed frozen shadow diagnostics: /tmp/tmpimgpgbpz/shadow/shadow_summary.json
+ok
+test_mismatched_checkpoint_or_cached_identity_is_rejected (test_shadow.ShadowTests.test_mismatched_checkpoint_or_cached_identity_is_rejected) ... SHADOW A_clear/pick_cup: 1 frozen episodes
+SHADOW A_clear/open_drawer: 1 frozen episodes
+SHADOW B_passage_blocked/pick_cup: 1 frozen episodes
+SHADOW B_passage_blocked/open_drawer: 1 frozen episodes
+SHADOW C_workspace_clutter/pick_cup: 1 frozen episodes
+SHADOW C_workspace_clutter/open_drawer: 1 frozen episodes
+ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 4.474s
+
+OK

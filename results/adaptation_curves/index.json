@@ -1,0 +1,113 @@
+{
+  "identity_method": "Agent identified by meta-decision counts; seed and phase uniquely matched by both task AUCs against recorded per-seed results.",
+  "files": [
+    {
+      "path": "results/adaptation_curves/seed0/baseline/phase0_adaptation_curve.json",
+      "source_file": "phase0_adaptation_curve(2).json",
+      "sha256": "8e18e36d2090021007ae25f216fbc88105c0d3afbb4c199109dde14f2057b8b6",
+      "agent": "baseline",
+      "seed": 0,
+      "phase": 0,
+      "domain": "A_clear"
+    },
+    {
+      "path": "results/adaptation_curves/seed0/baseline/phase1_adaptation_curve.json",
+      "source_file": "phase1_adaptation_curve(2).json",
+      "sha256": "4fa8698f82e154660c539be0e9bd81cf00d3d94a85bc4f60e8c227f2abdb6d24",
+      "agent": "baseline",
+      "seed": 0,
+      "phase": 1,
+      "domain": "B_passage_blocked"
+    },
+    {
+      "path": "results/adaptation_curves/seed0/baseline/phase2_adaptation_curve.json",
+      "source_file": "phase2_adaptation_curve(2).json",
+      "sha256": "376f758aa41a59ddd1683bce4dfe68976e459d0f2db1506f030ef6f02cfae712",
+      "agent": "baseline",
+      "seed": 0,
+      "phase": 2,
+      "domain": "C_workspace_clutter"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/baseline/phase0_adaptation_curve.json",
+      "source_file": "phase0_adaptation_curve.json",
+      "sha256": "494b6faf51a75372de86249f6cb33449b159be7f1eb5f5f7569934ec1f21ab01",
+      "agent": "baseline",
+      "seed": 1,
+      "phase": 0,
+      "domain": "A_clear"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/baseline/phase1_adaptation_curve.json",
+      "source_file": "phase1_adaptation_curve.json",
+      "sha256": "686ea77d593f0b7b03498148bd96675219d0b924574ecacad1344892179ef24e",
+      "agent": "baseline",
+      "seed": 1,
+      "phase": 1,
+      "domain": "B_passage_blocked"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/baseline/phase2_adaptation_curve.json",
+      "source_file": "phase2_adaptation_curve.json",
+      "sha256": "5b64c4d030fc49acb325952b75c0b86220d25ddbdf249d717fc8fd19e007de94",
+      "agent": "baseline",
+      "seed": 1,
+      "phase": 2,
+      "domain": "C_workspace_clutter"
+    },
+    {
+      "path": "results/adaptation_curves/seed0/metacognitive/phase0_adaptation_curve.json",
+      "source_file": "phase0_adaptation_curve(3).json",
+      "sha256": "ede7d39ab7106b957c8ae2761e7a8f44ac1e73ae4c25f16c8a2bfc79a23f25a9",
+      "agent": "metacognitive",
+      "seed": 0,
+      "phase": 0,
+      "domain": "A_clear"
+    },
+    {
+      "path": "results/adaptation_curves/seed0/metacognitive/phase1_adaptation_curve.json",
+      "source_file": "phase1_adaptation_curve(3).json",
+      "sha256": "82e6e0613b1a1e183f01c943d5bf2bfcb6f05fb7ebaaced29854ba6f72b2cba9",
+      "agent": "metacognitive",
+      "seed": 0,
+      "phase": 1,
+      "domain": "B_passage_blocked"
+    },
+    {
+      "path": "results/adaptation_curves/seed0/metacognitive/phase2_adaptation_curve.json",
+      "source_file": "phase2_adaptation_curve(3).json",
+      "sha256": "c57efe902c48070e705f6fc115fec480296e36e0ffd5c81f17fc0c24b44c4019",
+      "agent": "metacognitive",
+      "seed": 0,
+      "phase": 2,
+      "domain": "C_workspace_clutter"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/metacognitive/phase0_adaptation_curve.json",
+      "source_file": "phase0_adaptation_curve(1).json",
+      "sha256": "3e2d62d8b7d224a8cfdc20ce75eff2e9d3b9778d14e2ad2fbbfafd03be7a8784",
+      "agent": "metacognitive",
+      "seed": 1,
+      "phase": 0,
+      "domain": "A_clear"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/metacognitive/phase1_adaptation_curve.json",
+      "source_file": "phase1_adaptation_curve(1).json",
+      "sha256": "6abd50a8ba62d2108cde6128f79dae4ca09b67c76ed8ee11fe944443d7aaec73",
+      "agent": "metacognitive",
+      "seed": 1,
+      "phase": 1,
+      "domain": "B_passage_blocked"
+    },
+    {
+      "path": "results/adaptation_curves/seed1/metacognitive/phase2_adaptation_curve.json",
+      "source_file": "phase2_adaptation_curve(1).json",
+      "sha256": "86522ab5ac3e6d9137978fd1d3d3e601c675279e842396978550a50b8df2b822",
+      "agent": "metacognitive",
+      "seed": 1,
+      "phase": 2,
+      "domain": "C_workspace_clutter"
+    }
+  ]
+}

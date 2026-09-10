@@ -1,0 +1,13 @@
+task,split,metric,n_seeds,mean,std,n_defined_seeds
+open_drawer,seen,success_difference_pp,2,-5.0,7.0710678118654755,2
+open_drawer,seen,steps_difference,2,12.525,18.349420971790906,2
+open_drawer,seen,nn_gflops_episode_difference,2,0.9670537795749999,0.6514638766467592,2
+open_drawer,unseen,success_difference_pp,2,2.5,3.5355339059327378,2
+open_drawer,unseen,steps_difference,2,-3.075,4.419417382415922,2
+open_drawer,unseen,nn_gflops_episode_difference,2,0.21317254322499998,0.14995860681334014,2
+pick_cup,seen,success_difference_pp,2,5.0,0.0,2
+pick_cup,seen,steps_difference,2,-16.525,11.561195872400052,2
+pick_cup,seen,nn_gflops_episode_difference,2,-0.4971887387749999,0.3761151104062691,2
+pick_cup,unseen,success_difference_pp,2,-2.5,3.5355339059327378,2
+pick_cup,unseen,steps_difference,2,5.375,12.480434687942562,2
+pick_cup,unseen,nn_gflops_episode_difference,2,0.49582560620000005,0.33041510916915084,2
